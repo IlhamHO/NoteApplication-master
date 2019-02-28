@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".AddNoteActivity">
 
     <TextView
@@ -15,9 +16,14 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:background="@color/colorPrimaryDark"
         android:text="@string/text_lbl_titel"
-        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:fontFamily="serif"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -30,8 +36,11 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:background="@android:color/white"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lbl_titel" />
@@ -45,8 +54,11 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:background="@color/design_default_color_primary"
         android:text="@string/text_lbl_content"
-        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_titel" />
@@ -54,15 +66,17 @@
     <EditText
         android:id="@+id/et_content"
         android:layout_width="0dp"
-        android:layout_height="197dp"
+        android:layout_height="146dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:background="@android:color/white"
         android:ems="10"
         android:inputType="textMultiLine"
         android:lines="5"
+        android:textColor="@android:color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lbl_content" />

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NoteApplication</string>
+    <string name="app_name">Note App</string>
     <string name="text_lbl_titel">Titel</string>
     <string name="text_lbl_content">Content</string>
 </resources>
